@@ -1,0 +1,182 @@
+@media (min-width:320px) {
+  body {
+    font-family: Georgia;
+    color: #000;
+    line-height: 1.15em;
+    background: #f5f4f0;
+  }
+
+  a, a:hover, a:active, a:visited {
+    color: #228622;
+    text-decoration: none;
+  }
+
+  nav {
+    padding: 20px 0;
+  }
+
+  nav a {
+    color: #000 !important;
+    display: block;
+    margin: 0.5em 0;
+    text-align: center;
+  }
+
+  nav a:first-child {
+    padding-left: 0;
+  }
+
+  nav a h1 {
+    font-weight: normal;
+    margin: 0;
+    margin-right: 0.5em;
+    position: relative;
+    bottom: 2px;
+  }
+
+  main {
+    clear: both;
+    padding: 1.5em 1em 2em 0;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .swatch {
+    color: #000;
+    padding: 10px;
+    float: right;
+    margin: 0 3px;
+    cursor: pointer;
+  }
+
+  .swatch#Xflaring {
+    background: #e12700;
+  }
+
+  .swatch#Mflaring {
+    background: #22a922;
+  }
+
+  .swatch#Cflaring {
+    background: #dcbe26;
+  }
+
+  .swatch#all {
+    background: #000;
+  }
+
+  .visualizations img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-sizing: border-box;
+    padding: 1em;
+  }
+
+}
+
+@media (min-width:640px) {
+  nav a {
+    text-align: left;
+    float: left;
+    margin: 0 0.5em 0 0;
+  }
+
+  .swatch {
+    padding: 4px;
+  }
+
+  .visualizations img {
+    float: left;
+    display: inline-block;
+    width: 320px;
+    height: auto;
+    padding: none;
+  }
+}
+
+@media (min-width:850px) {
+  body {
+    margin: 1em auto 0.5em 2em;
+    font-size: 20px;
+    width: 850px;
+  }
+
+  nav a {
+    padding: 0 7px;
+  }
+
+  nav a h1 {
+    font-size: 42px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 8px;
+  }
+
+  .swatch {
+    padding: 4px;
+    position: relative;
+    top: 10px;
+  }
+
+  .visualizations img {
+    width: 380px;
+  }
+}
+
+/* D3/SVG CSS */
+
+svg .axis path,
+svg .axis line {
+  fill: none;
+  stroke: gray;
+  stroke-width: 2;
+  shape-rendering: crispEdges;
+}
+
+svg .axis text {
+  font-family: Georgia;
+  font-size: 20px;
+  fill: gray
+}
+
+svg circle:hover {
+  fill: purple;
+}
+
+svg path {
+  fill: #f5f4f0;
+  opacity: 1.0;
+  stroke-linejoin: round;
+}
+
+svg .graticule {
+  stroke: #aaa;
+  fill: #f5f4f0;
+  opacity: 1.0;
+}
+
+/* D3 VISUALIZATION TOOLTIP */
+
+#tooltip {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  padding: 10px;
+  background: #f5f4f0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+#tooltip p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 20px;
+}
