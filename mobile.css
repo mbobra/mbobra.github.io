@@ -1,6 +1,6 @@
 @media (min-width:320px) {
   body {
-    font-family: Georgia;
+    font-family: Lato;
     color: #000;
     line-height: 1.15em;
     background: #f5f4f0;
@@ -27,11 +27,23 @@
   }
 
   nav a h1 {
-    font-weight: normal;
+    font-family: Raleway;
+    font-weight: bold;
     margin: 0;
     margin-right: 0.5em;
     position: relative;
     bottom: 2px;
+  }
+
+  nav a h2 {
+    font-family: Lato;
+    font-weight: normal;
+    color:gray;
+    margin: 0;
+    margin-right: 0.5em;
+    position: relative;
+    font-size: 14px;
+    bottom: 0px;
   }
 
   main {
@@ -84,6 +96,27 @@
     margin: 0 0.5em 0 0;
   }
 
+  nav a h1 {
+    font-family: Raleway;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 0.5em;
+    position: relative;
+    bottom: 2px;
+  }
+
+  nav a h2 {
+    font-family: Lato;
+    font-weight: normal;
+    color:gray;
+    margin: 0;
+    margin-right: 0.5em;
+    position: relative;
+    font-size: 14px;
+    bottom: 0px;
+    top: 2px;
+  }
+
   .swatch {
     padding: 4px;
   }
@@ -100,7 +133,7 @@
 @media (min-width:850px) {
   body {
     margin: 1em auto 0.5em 2em;
-    font-size: 20px;
+    font-size: 18px;
     width: 850px;
   }
 
@@ -109,10 +142,24 @@
   }
 
   nav a h1 {
-    font-size: 42px;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 38px;
     margin-right: 10px;
     position: relative;
     bottom: 8px;
+  }
+
+  nav a h2 {
+    font-family: Lato;
+    font-weight: normal;
+    font-size: 14px;
+    color:gray;
+    margin: 0;
+    margin-right: 8px;
+    position: relative;
+    bottom: 0px;
+    top: 0px;
   }
 
   .swatch {
@@ -137,7 +184,7 @@ svg .axis line {
 }
 
 svg .axis text {
-  font-family: Georgia;
+  font-family: Lato;
   font-size: 20px;
   fill: gray
 }
