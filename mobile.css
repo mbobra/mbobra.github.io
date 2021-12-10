@@ -54,7 +54,31 @@
     margin-right: 0.5em;
     position: relative;
     font-size: 14px;
-    bottom: 0px;
+    bottom: 10px;
+  }
+
+  nav h2:active {
+    text-decoration: underline #555;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+
+  nav h2:hover {
+    text-decoration: underline #555;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+
+  nav h2:focus {
+    text-decoration: underline #555;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+
+  u {
+    text-decoration: underline #555;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
   }
 
   main {
