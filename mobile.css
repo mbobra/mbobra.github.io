@@ -1,9 +1,20 @@
 @media (min-width:320px) {
   body {
-    font-family: Lato;
     color: #000;
-    line-height: 1.15em;
+    /*line-height: 1.15em;*/
     background: #f5f4f0;
+    line-height: 23px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 23px;
+  }
+
+  ul:first-of-type {
+    padding: 0px;
+    margin-left: 1.5em;
   }
 
   a, a:hover, a:active, a:visited {
@@ -12,7 +23,7 @@
   }
 
   nav {
-    padding: 20px 0;
+    padding: 20px 0px;
   }
 
   nav a {
@@ -27,8 +38,8 @@
   }
 
   nav a h1 {
-    font-family: Raleway;
-    font-weight: bold;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: normal;
     margin: 0;
     margin-right: 0.5em;
     position: relative;
@@ -36,9 +47,9 @@
   }
 
   nav a h2 {
-    font-family: Lato;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: normal;
-    color:gray;
+    color:#555;
     margin: 0;
     margin-right: 0.5em;
     position: relative;
@@ -48,7 +59,7 @@
 
   main {
     clear: both;
-    padding: 1.5em 1em 2em 0;
+    padding: 1.5em 1em 2em 2px;
   }
 
   .hidden {
@@ -97,8 +108,8 @@
   }
 
   nav a h1 {
-    font-family: Raleway;
-    font-weight: bold;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: normal;
     margin: 0;
     margin-right: 0.5em;
     position: relative;
@@ -106,9 +117,9 @@
   }
 
   nav a h2 {
-    font-family: Lato;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: normal;
-    color:gray;
+    color:#555;
     margin: 0;
     margin-right: 0.5em;
     position: relative;
@@ -130,33 +141,43 @@
   }
 }
 
-@media (min-width:850px) {
+@media (min-width:800px) {
   body {
     margin: 1em auto 0.5em 2em;
-    font-size: 18px;
-    width: 850px;
+    color: #000;
+    background: #f5f4f0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: normal; 
+    line-height: 24px;
+    width: 800px;
   }
 
   nav a {
-    padding: 0 7px;
+    padding: 0 2px;
   }
 
   nav a h1 {
-    font-family: Raleway;
-    font-weight: bold;
-    font-size: 38px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 40px;
     margin-right: 10px;
+    margin-left: 0px;
     position: relative;
     bottom: 8px;
   }
 
   nav a h2 {
-    font-family: Lato;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: normal;
-    font-size: 14px;
-    color:gray;
+    font-size: 16px;
+    color:#555;
     margin: 0;
     margin-right: 8px;
+    margin-left: 0px;
+    margin-top:2px;
     position: relative;
     bottom: 0px;
     top: 0px;
