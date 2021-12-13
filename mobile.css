@@ -1,7 +1,6 @@
 @media (min-width:380px) {
   body {
     color: #000;
-    /*line-height: 1.15em;*/
     background: #f5f4f0;
     line-height: 23px;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
@@ -18,7 +17,7 @@
   }
 
   a, a:hover, a:active, a:visited {
-    color: #228622;
+    color: #226082;
     text-decoration: none;
   }
 
@@ -29,7 +28,7 @@
   nav a {
     color: #000 !important;
     display: block;
-    margin: 0.5em 0;
+    margin: 0.5em 0px;
     text-align: center;
   }
 
@@ -83,7 +82,7 @@
 
   main {
     clear: both;
-    padding: 1.5em 1em 2em 2px;
+    padding: 1em 1em 1em 2px;
   }
 
   .hidden {
@@ -112,14 +111,6 @@
 
   .swatch#all {
     background: #000;
-  }
-
-  .visualizations img {
-    width: 100%;
-    height: auto;
-    display: block;
-    box-sizing: border-box;
-    padding: 1em;
   }
 
 }
@@ -156,13 +147,6 @@
     padding: 4px;
   }
 
-  .visualizations img {
-    float: left;
-    display: inline-block;
-    width: 320px;
-    height: auto;
-    padding: none;
-  }
 }
 
 @media (min-width:800px) {
@@ -202,6 +186,7 @@
     margin-right: 8px;
     margin-left: 0px;
     margin-top:2px;
+    margin-bottom: 0px;
     position: relative;
     bottom: 0px;
     top: 0px;
@@ -212,11 +197,6 @@
     position: relative;
     top: 10px;
   }
-
-  .visualizations img {
-    width: 380px;
-  }
-}
 
 /* D3/SVG CSS */
 
@@ -271,4 +251,5 @@ svg .graticule {
   margin: 0;
   font-size: 20px;
   line-height: 20px;
+}
 }
